@@ -4,15 +4,17 @@ Distributed Keras model for making predictions of the sentiment with Spanish sen
 ## Prerequisites
 **Files**:
 - [Cardellino wor2vect file](http://crscardellino.me/SBWCE/)
+
 **Software versions**:
-- Spark 2.0.2 
-- Apache Kafka
+- Spark 2.0.2 pre-build for Hadoop 2.7 or later
+- Apache Kafka 2.11-0.10.2.0 binary file for Scala 2.11
 - Python 3.5
-PENDIENTE version de kafka y especificaciones de compilar/sini compilar
+
 **Library versions**:
 - TensorFlow 1.2.1
 - Keras 2.0.6
 - Nltk 3.2.2
+- Kafka-python
 
 ## Execution
 First you have to start a ZooKeeper server
