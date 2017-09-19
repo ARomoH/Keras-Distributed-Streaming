@@ -1,5 +1,5 @@
 # Keras-Distributed-Streaming
-Distributed Keras model for making predictions of the sentiment with Spanish sentences in stream context using Spark Streaming and Apache Kafka. The project has a script that allows you to enter phrases by command line and send them to a Kafka topic. Then Kafka sends the information to Spark Streaming where through the Jupyter Notebook shows the polarity of sentences on the screen.
+Distributed Keras model for making predictions of sentiment from Spanish sentences in stream context using Spark Streaming and Apache Kafka. The project has a script that allows you to enter phrases by command line and send them to a Kafka topic. Then Kafka sends the information to Spark Streaming where through the Jupyter Notebook shows the polarity of sentences on the screen.
 
 ## Prerequisites
 **Files**:
